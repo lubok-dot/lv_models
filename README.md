@@ -5,3 +5,4 @@ PCA might be replaced by Probabilistic alternatives, like [Probabilistic PCA](ht
 
 Cluster models may be also replaced by latent generative models. Promising candidates are mixture models with different likelihoods and priors. [STAN](https://mc-stan.org/) is a probabilistic programming language which allows for sampling from those models even for non-conjugate priors via [Automatic Variational Inference](https://arxiv.org/abs/1506.03431). This allows for Bayesian Inference for mixture models and predicting class probabilities, that is, a soft clustering, instead of a hard-clustering which assigns 1 to one class and 0 otherwise, provided by Seuart. Evaluating and implementing STAN models for Single Cell data is a goal of this repo as well.
 
+![Clustering of Single Cell Data](https://github.com/lubok-dot/lv_models/blob/master/single_cell.PNG)
